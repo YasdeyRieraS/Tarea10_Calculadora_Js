@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    
+    <table class="calculator">
+
+        <tr>
+            <td colspan="4"><h1 text align="center" >Calculator</h1></td>
+        </tr>
+
+        <tr>
+            <td colspan="2"><label class="labels" for="number1Field">Enter the first number: </label></td>
+            <td colspan="2"><input type="number" id="number1Field"></td>
+        </tr>
+
+        <tr>
+            <td colspan="2"><label class="labels" for="number2Field">Enter the second number: </label></td>
+            <td colspan="2"><input type="number" id="number2Field"></td>
+        </tr>
+
+        <tr>
+            <td align="center"><button class="buttons"id="Sum">+</button></td>
+            <td align="center"><button class="buttons" id="subtraction">-</button></td>
+            <td align="center"><button class="buttons" id="multiplication">*</button></td>
+            <td align="center"><button class="buttons" id="division">/</button></td>
+        </tr>
+
+        <tr>
+            <td colspan="4"><p id="result">Result:</p></td>
+        </tr>
+
+    </table>
+</body>
+</html>

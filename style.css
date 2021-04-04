@@ -1,0 +1,32 @@
+.calculator {
+  display: block;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: deepskyblue;
+  width: 410px;
+  height: 330px;
+  border-radius: 25px;
+}
+
+.labels {
+  font-size: 17px;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.buttons {
+  width: 50px;
+  height: 50px;
+  font-size: 40px;
+  margin-top: 20px;
+}
+
+#result {
+  display: block;
+  text-align: center;
+  font-size: 25px;
+  margin-top: 10px;
+  width: 370px;
+  height: 60px;
+  background-color: floralwhite;
+  border-radius: 25px;
+}
